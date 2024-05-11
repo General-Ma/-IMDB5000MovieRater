@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# TensorFlow specific ignores
+# Logs created during training
+*.tfevents.*
+
+# Model checkpoint files
+checkpoint
+model.ckpt-*
+model.ckpt.data-*-*-of-*
+model.ckpt.index
+
+# Ignore saved model directories
+saved_model/
+
+# Data used for training and testing
+data/
